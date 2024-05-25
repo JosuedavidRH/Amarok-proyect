@@ -1,6 +1,6 @@
 .container {
-    position: relative; /* Establece el contenedor como posición relativa */
-    width: fit-content; /* Ajusta el contenedor al tamaño del contenido */
+    position: relative; 
+    width: fit-content; 
 }
 
 .background-image {
@@ -10,16 +10,16 @@
 }
 
 .login-button {
-    position: absolute; /* Posiciona el botón de forma absoluta */
-    top: 50px; /* Ajusta la distancia desde la parte superior del contenedor */
-    left: 10px; /* Ajusta la distancia desde el borde izquierdo del contenedor */
+    position: absolute; 
+    top: 50px; 
+    left: 10px; 
     background-color: #cccccc; /* Gris */
     color: #ffffff; /* Texto blanco */
-    padding: 20px 40px; /* Espaciado interior duplicado */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    font-size: 32px; /* Tamaño del texto duplicado */
+    padding: 20px 40px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 32px; 
 }
 
 /* Estilo cuando se pasa el cursor sobre el botón */
