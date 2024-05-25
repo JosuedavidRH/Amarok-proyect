@@ -1,0 +1,29 @@
+.container {
+    position: relative; /* Establece el contenedor como posición relativa */
+    width: fit-content; /* Ajusta el contenedor al tamaño del contenido */
+}
+
+.background-image {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+    display: block; /* Hace que la imagen sea un bloque para que el botón pueda posicionarse correctamente */
+}
+
+.login-button {
+    position: absolute; /* Posiciona el botón de forma absoluta */
+    top: 50px; /* Ajusta la distancia desde la parte superior del contenedor */
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo del contenedor */
+    background-color: #cccccc; /* Gris */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px 40px; /* Espaciado interior duplicado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 32px; /* Tamaño del texto duplicado */
+}
+
+/* Estilo cuando se pasa el cursor sobre el botón */
+.login-button:hover {
+    background-color: #aaaaaa; /* Gris más claro */
+}
+
